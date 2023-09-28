@@ -1,0 +1,730 @@
+---
+- 
+- !ruby/object:RPG::Actor
+  name: Asagi
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: actor001b_01
+  class_id: 1
+  character_name: actor01b_01
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 12
+    value: 0.0
+  note: ''
+  equips:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 55
+  nickname: Moral Sword
+  description: |-
+    A young warrior undergoing martial training.
+    Fights demons with a sword made from sacred wood.
+  max_level: 30
+- !ruby/object:RPG::Actor
+  name: Whip
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: actor002b_01
+  class_id: 2
+  character_name: actor02b_01
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 12
+    value: 0.0
+  note: ''
+  equips:
+  - 2
+  - 5
+  - 0
+  - 0
+  - 56
+  nickname: Demon Hunter
+  description: |-
+    An orphaned master demon hunter.
+    She is a master of the whip.
+  max_level: 30
+- !ruby/object:RPG::Actor
+  name: Ura
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: actor003b_01
+  class_id: 3
+  character_name: actor03b_01
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 12
+    value: 0.0
+  note: ''
+  equips:
+  - 3
+  - 9
+  - 0
+  - 0
+  - 57
+  nickname: Martial Artist
+  description: |-
+    She loves to fight.
+    But she tends not to think things through very much.
+  max_level: 30
+- !ruby/object:RPG::Actor
+  name: Blade
+  face_index: 6
+  character_index: 0
+  initial_level: 6
+  face_name: actor004b_01
+  class_id: 4
+  character_name: actor04b_01
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 12
+    value: 0.0
+  note: ''
+  equips:
+  - 4
+  - 13
+  - 0
+  - 0
+  - 58
+  nickname: White Mask
+  description: |-
+    Masked, she defeats evil！An unrivaled heroine！
+    ・・・who was defeated, imprisoned, and trained！
+  max_level: 30
+- !ruby/object:RPG::Actor
+  name: Aah
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 01ブレイド
+  class_id: 5
+  character_name: ''
+  id: 5
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Heishen
+  face_index: 0
+  character_index: 0
+  initial_level: 10
+  face_name: actor01_04
+  class_id: 6
+  character_name: ''
+  id: 6
+  features: []
+  note: 剣聖国の騎士だったが、捕まって剣奴にされた
+  equips:
+  - 62
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Soldier
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jane Doe
+  face_index: 0
+  character_index: 0
+  initial_level: 10
+  face_name: actor01-02
+  class_id: 7
+  character_name: ''
+  id: 7
+  features: []
+  note: 隷属の首輪を着けられた魔導師
+  equips:
+  - 64
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Soldier
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Edge
+  face_index: 0
+  character_index: 0
+  initial_level: 10
+  face_name: actor01a
+  class_id: 8
+  character_name: ''
+  id: 8
+  features: []
+  note: "名うてのガンマン。\r\nビーンズ兄弟と言う賞金首を捜している"
+  equips:
+  - 63
+  - 62
+  - 0
+  - 0
+  - 0
+  nickname: Soldier
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Boris
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: actor009a
+  class_id: 9
+  character_name: actor009
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: SR-77C
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Akari
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: actor009
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Vacant
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 11
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Fea
+  face_index: 0
+  character_index: 2
+  initial_level: 30
+  face_name: Hero_f
+  class_id: 1
+  character_name: Actor4
+  id: 12
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Silent Saint Knight
+  description: |-
+    Saint knight who was schemed out of position.
+    Wanders and trains in various places.
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: Ache
+  face_index: 0
+  character_index: 0
+  initial_level: 30
+  face_name: Cleric_f
+  class_id: 1
+  character_name: ''
+  id: 13
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Healing Archer
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Heishen
+  face_index: 0
+  character_index: 4
+  initial_level: 20
+  face_name: Grappler_f
+  class_id: 1
+  character_name: Actor4
+  id: 14
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Hyakuhana Rangeki
+  description: |-
+    師匠の仇を探して旅を続ける剣士。剣に魔力を宿らせる技
+    「魔法剣」を体得している。
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: Mikoto
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: J_Ninja2
+  class_id: 2
+  character_name: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 1
+    value: 0.0
+  note: "\r\n真面目\r\nツンデレ"
+  equips:
+  - 68
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    不浄学生たちを取り締まる退魔風紀委員。
+    「」
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Not Ura
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 3
+  character_name: ''
+  id: 16
+  features: []
+  note: "\r\n戦闘狂\r\n良く寝る"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 書記
+  description: 月
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sai
+  face_index: 0
+  character_index: 0
+  initial_level: 10
+  face_name: Priest
+  class_id: 10
+  character_name: ''
+  id: 17
+  features: []
+  note: "Ａbsolute age\r\n世界観を間違った超能力少女\r\n統一級（ワールドクラス）の能力者だが厨二病。\r\n自分は永邪の秘蹟によって黄泉の宮に封じられた冥府の王の現世体であると言い張る。\r\n\r\nのじゃロリ"
+  equips:
+  - 0
+  - 62
+  - 0
+  - 0
+  - 0
+  nickname: Soldier
+  description: |-
+    自分を冥王エノシュの現身と自称する普通の超能力少女。
+    「牙霊どもが騒がしいな・・・奴等が動き出したか・・・」
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 18
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 19
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 20
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Crazy Ass
+  face_index: 0
+  character_index: 0
+  initial_level: 40
+  face_name: Succubus
+  class_id: 1
+  character_name: ''
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 魔王
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Iosu
+  face_index: 0
+  character_index: 0
+  initial_level: 30
+  face_name: Delf_f
+  class_id: 1
+  character_name: ''
+  id: 22
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 混沌の魔剣士
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sukia
+  face_index: 0
+  character_index: 0
+  initial_level: 30
+  face_name: Wizard_f
+  class_id: 1
+  character_name: ''
+  id: 23
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 呪いの運び手
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Kagekaze
+  face_index: 0
+  character_index: 0
+  initial_level: 25
+  face_name: J_Ninja2
+  class_id: 1
+  character_name: ''
+  id: 24
+  features: []
+  note: "イビツ\r\n\r\nマガツ"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 闇の走狗
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Thief
+  face_index: 0
+  character_index: 0
+  initial_level: 20
+  face_name: Thief_f
+  class_id: 1
+  character_name: ''
+  id: 25
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 26
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 27
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 28
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 29
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 30
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0

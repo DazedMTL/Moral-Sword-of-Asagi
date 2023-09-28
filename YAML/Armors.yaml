@@ -1,0 +1,2543 @@
+---
+- 
+- !ruby/object:RPG::Armor
+  description: Haori (kimono-like jacket) of a breezy hue.
+  name: Asagi's Haori
+  icon_index: 532
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"アサギ羽織\"\r\n$レベル   = 1"
+  id: 1
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Haori (kimono-like jacket) of a breezy hue.
+    ...It's become a little too breezy.
+  name: Asagi's Haori 【Damaged】
+  icon_index: 532
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"アサギ羽織\"\r\n$レベル   = 2"
+  id: 2
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Collar that hoodlums attach to women they rape.
+    ...It can't be removed with one's own power.
+  name: Sow's Collar
+  icon_index: 396
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"アサギ羽織\"\r\n$レベル   = 3"
+  id: 3
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Costume from the new series "Submission Swordswoman! 100 Best
+    Sexual Punishments!" ...It's hard to fight on unfamiliar heels.
+  name: Submission Fetishwear
+  icon_index: 396
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"アサギ羽織\"\r\n$レベル   = 4"
+  id: 4
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Uniform of the church.
+  name: Cassock
+  icon_index: 554
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"カソック\"\r\n$レベル   = 1"
+  id: 5
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Uniform of the church
+    ...ripped into pieces.
+  name: Cassock 【Damaged】
+  icon_index: 554
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"カソック\"\r\n$レベル   = 2"
+  id: 6
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Collar that hoodlums attach to women they rape.
+    ...It can't be removed with one's own power.
+  name: Sow's Collar
+  icon_index: 398
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"カソック\"\r\n$レベル   = 3"
+  id: 7
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Costume from the popular series "Reversal! Queen Turned Anal
+    Masochist Slave!" ...The anal hook can't be removed alone.
+  name: Anal Masochist Slave Forced Harness
+  icon_index: 398
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"カソック\"\r\n$レベル   = 4"
+  id: 8
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Student uniform.
+  name: School Uniform
+  icon_index: 547
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"制服\"\r\n$レベル   = 1"
+  id: 9
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Student uniform.
+    ...With its daring cut, everything is visible.
+  name: School Uniform 【Damaged】
+  icon_index: 547
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"制服\"\r\n$レベル   = 2"
+  id: 10
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Collar that hoodlums attach to women they rape.
+    ...It can't be removed with one's own power.
+  name: Sow's Collar
+  icon_index: 399
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"制服\"\r\n$レベル   = 3"
+  id: 11
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Costume from the new series "Defeat! Meat Toilet Banchou!"
+    ...Rather than a costume, it's basically just bondage.
+  name: Defeated Dog Training Bonds
+  icon_index: 399
+  price: 100
+  note: "$タグ     = \"装備\"\r\n$シリーズ = \"制服\"\r\n$レベル   = 4"
+  id: 12
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Costume from the popular series "Problem-Solving Warrior Mask
+    Of Ero" ...Donned when Blade is trained and photographed.
+  name: Slave Form
+  icon_index: 396
+  price: 100
+  note: ''
+  id: 13
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: 【Accessories】
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: Offensive power is raised. (+7)
+  name: Attack Gem
+  icon_index: 187
+  price: 1000
+  note: ''
+  id: 21
+  features: []
+  params:
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Offensive power is greatly increased. (+15)
+  name: Vigorous Attack Gem
+  icon_index: 187
+  price: 3000
+  note: ''
+  id: 22
+  features: []
+  params:
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Defense power is raised. (+10)
+  name: Defense Gem
+  icon_index: 188
+  price: 1000
+  note: ''
+  id: 23
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Defense is greated increased. (+20)
+  name: Iron Wall Gem
+  icon_index: 188
+  price: 3000
+  note: ''
+  id: 24
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Evasion is raised. (+10%)
+  name: Evasion Gem
+  icon_index: 189
+  price: 2000
+  note: ''
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Sexual evasion is raised.
+    （Not regular evasion.）
+  name: Mobility Gem
+  icon_index: 189
+  price: 5000
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    Reason is raised. (+8)
+    （Sexual harassment damage reduction）
+  name: Gem of Reason
+  icon_index: 190
+  price: 2000
+  note: ''
+  id: 28
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Reason is raised. (+13)
+    （Sexual harassment damage reduction）
+  name: Gem of Intention
+  icon_index: 190
+  price: 5000
+  note: ''
+  id: 29
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 13
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: Gem of Lust
+  icon_index: 191
+  price: 0
+  note: ''
+  id: 30
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: Gem of Corruption
+  icon_index: 191
+  price: 0
+  note: ''
+  id: 31
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |
+    All parameters up!
+  name: Tounindama
+  icon_index: 542
+  price: 0
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 50
+  - 50
+  - 15
+  - 20
+  - 0
+  - 10
+  - 5
+  - 10
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: When captured, can revive once. (Equipment)
+  name: Victim's Charm
+  icon_index: 534
+  price: 3000
+  note: ''
+  id: 34
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Rope used to capture women during combat.
+    Women must not dare to use it! (Equipment)
+  name: Binding Rope
+  icon_index: 393
+  price: 800
+  note: ''
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 51
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Offensive power is temporarily raised. (Equipment)
+  name: Anger Charm
+  icon_index: 533
+  price: 1500
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 52
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Reason is temporarily raised. (Equipment)
+  name: Reason Charm
+  icon_index: 533
+  price: 1500
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 53
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    HP is recovered for all if used during combat.
+    Amount of recovery depends of reason level.
+  name: Charm of Healing
+  icon_index: 533
+  price: 1500
+  note: ''
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 54
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 59
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Attract enemies' attacks by being violated.
+  name: Decoy Charm
+  icon_index: 533
+  price: 0
+  note: ''
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 55
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Receive the enemies' attacks.
+  name: Provocation Charm
+  icon_index: 533
+  price: 1500
+  note: ''
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 56
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Handcuffs that instantly turn you into a female slave when used
+    in battle. Women must not dare to use it! (Equipment)
+  name: Cuffs of Obedience
+  icon_index: 345
+  price: 500
+  note: ''
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 57
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Collar that instantly makes you naked when used in battle.
+    Women must not dare to use it! (Equipment)
+  name: Exposure Collar
+  icon_index: 398
+  price: 300
+  note: ''
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 58
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Rope that has been picked up carelessly.
+    What does it do? (Equipment)
+  name: M Slave Rope
+  icon_index: 394
+  price: 300
+  note: 怪しい気配を感じる・・・触らなぬが吉か
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 142
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Chain that seals the movements of meat toilets so they won't
+    escape. Women must not dare to use it! (Equipment)
+  name: Chain of the Meat Toilet
+  icon_index: 905
+  price: 500
+  note: ''
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 134
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Succubus's tool that makes female slaves mad for masturbation.
+    Strongest vibe that enraptures one's pussy and ass. (Equipment)
+  name: Demon Vibes
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 135
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Restore resistance of all members during battle.
+    Amount of recovery depends of reason level. (Equipment)
+  name: Charm of Resistance
+  icon_index: 533
+  price: 2000
+  note: ''
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 151
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 152
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    HP & TP are recovered. ...But occasionally go into heat.
+    Effectivity improved because it's a suppository! (Equipment)
+  name: Special Demon Medicine
+  icon_index: 391
+  price: 10000
+  note: ''
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 153
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    Invite enemies' attacks with an enchanting smell.
+    (Equipped person's target rate is increased)
+  name: Pheromone Aroma
+  icon_index: 122
+  price: 0
+  note: 発情オークがドロップ
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 10.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Proof of being a slave of The Sow's Hole.
+    HP is increased, but lust increases too.
+  name: Sow Emblem
+  icon_index: 502
+  price: 0
+  note: 救出１０人
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 2
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 18
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 19
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    An oath to never lose to dicks!
+    Though ATK is increased, lust increases too.
+  name: Kukill Crest
+  icon_index: 507
+  price: 0
+  note: クレスティアの換金
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 2
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 18
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 19
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.3
+  params:
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Though you lose resistance, you will not be defeated by rape.
+    (Max HP increased. Max resistance lowered.)
+  name: Submission Piercings
+  icon_index: 511
+  price: 0
+  note: 拷問官レアドロップ
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    You don't easily succumb to rape, but strength is lost.
+    (Max resistance increased. Max HP decreased.)
+  name: Chastity Belt of the Heart
+  icon_index: 364
+  price: 0
+  note: 虚無僧レアドロップ
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    The honor of a Moral Swordswoman.
+    Reason stat is somewhat increased.
+  name: Public Morals Arm Band
+  icon_index: 535
+  price: 0
+  note: ''
+  id: 55
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Amulet owned by Whip.
+    Evasion is somewhat increased.
+  name: Cleric's Cross
+  icon_index: 281
+  price: 0
+  note: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Ura's favorite.
+    Critical rate is somewhat increased.
+  name: Black Choker
+  icon_index: 181
+  price: 0
+  note: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Mask Of White's crest.
+    TP increase rate is raised.
+  name: Crest Of White
+  icon_index: 506
+  price: 0
+  note: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 5
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Emblem that increases concentration of user.
+    (Accuracy up)
+  name: Snipe Eye
+  icon_index: 500
+  price: 0
+  note: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    Symbol of chastity and reason.
+    Reason greatly increased.
+  name: Virgin Ring
+  icon_index: 517
+  price: 0
+  note: ''
+  id: 62
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Obtain the succubus's skill at battle fuck.
+    Max resistance increased, but sensitivity as well.
+  name: Sign of the Succubus
+  icon_index: 499
+  price: 0
+  note: ''
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 2
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 18
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 19
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Whip of the queen ruling over men.
+    Damage against lewd enemies is raised, but reason falls.
+  name: Whip of the Queen
+  icon_index: 432
+  price: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 10
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Body fluid of a high-level succubus.
+    Prevents restraint, heat, and cloudiness, but reason falls.
+  name: Water Demon's Drop
+  icon_index: 99
+  price: 0
+  note: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 21
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 22
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 65
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crystal of the angel's power.
+    Crit rate rises... but reason falls.
+  name: Sky Mark
+  icon_index: 505
+  price: 0
+  note: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Wing that lightens the body like wind.
+    Because it's a succubus's cursed item, reason is lowered.
+  name: Gale Feather
+  icon_index: 286
+  price: 0
+  note: ''
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    Mask of the leader of The Sow's Hole.
+    TP increase rate is greatly raised.
+  name: Black Masquerade
+  icon_index: 528
+  price: 0
+  note: ''
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 5
+    value: 1.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Lecherous bible for a better raping life! (Prevent masturbation)
+    This week has a masturbation feature! Don't let any sows read!
+  name: '"Sow" Comic, January Issue'
+  icon_index: 336
+  price: 0
+  note: ''
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 22
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Lecherous bible for a better raping life! (Prevent restraint)
+    This week has a restraint feature! Don't let any sows read!
+  name: '"Sow" Comic, April Issue'
+  icon_index: 337
+  price: 0
+  note: ''
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 21
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Lecherous bible for a better raping life! (Prevent cloudiness)
+    This week has a cum dumpster feature! Don't let any sows read!
+  name: '"Sow" Comic, November Issue'
+  icon_index: 338
+  price: 0
+  note: ''
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 65
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Shackles of a sex slave who continued to fight no matter how
+    cruel the torment. Parameters rise but agility falls.
+  name: Slave Fighter's Shackles
+  icon_index: 323
+  price: 0
+  note: ''
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 10
+  - 10
+  - 0
+  - 7
+  - 0
+  - 10
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Erotic doujin of Mask Of White. (Whip-Exclusive Equipment)
+    "This is-" "Ojou-sama's thin book!? Outrageous! I'm seizing it!"
+  name: Thin Book
+  icon_index: 561
+  price: 0
+  note: ''
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 9
+    value: 0.15
+  params:
+  - 0
+  - 100
+  - 10
+  - 10
+  - 50
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    Sexual evasion is raised.
+    （Not regular evasion.）
+  name: Test-Use Evasion
+  icon_index: 189
+  price: 1500
+  note: ''
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Sexual evasion is raised.
+    （Not regular evasion.）
+  name: Test-Use HP
+  icon_index: 189
+  price: 1500
+  note: ''
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 5
+    value: 10.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: Test-Use Skill
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 212
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 214
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 213
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 43
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 44
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 46
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 47
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 48
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 49
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 10
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 11
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 14
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 15
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 17
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 18
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 19
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 68
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 20
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 21
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 22
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 23
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 24
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 25
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 27
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 29
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 30
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 31
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 32
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 33
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 34
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 36
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 37
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 39
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 100
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 91
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 94
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 98
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 99
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0

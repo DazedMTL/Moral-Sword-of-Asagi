@@ -1,0 +1,3076 @@
+---
+- 
+- !ruby/object:RPG::Item
+  description: Restore 500HP.
+  name: Potion
+  consumable: true
+  occasion: 2
+  icon_index: 192
+  price: 500
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 1
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 500.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '500'
+    variance: 0
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Restore 1500HP.
+  name: Hi-Potion
+  consumable: true
+  occasion: 2
+  icon_index: 192
+  price: 1000
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 2
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 1500.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 3
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Resistance power is recovered by 50.
+    Aroused status cured as well.
+  name: Sedative
+  consumable: true
+  occasion: 2
+  icon_index: 193
+  price: 500
+  scope: 7
+  animation_id: 38
+  note: ''
+  speed: 0
+  id: 4
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 50.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 105
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Resistance power completely recovered.
+    Aroused status cured as well.
+  name: Max Sedative
+  consumable: true
+  occasion: 2
+  icon_index: 193
+  price: 3000
+  scope: 7
+  animation_id: 38
+  note: ''
+  speed: 0
+  id: 5
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 105
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Gives you energy with a *shakiin!*.
+    Full TP recovery.
+  name: Bottle of Zest
+  consumable: true
+  occasion: 2
+  icon_index: 194
+  price: 800
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 6
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 13
+    data_id: 0
+    value1: 100.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    No matter how pathetic your appearance, return to a dignified
+    state! ...It also removes restraining devices.
+  name: Borois's Deluxe Clothing
+  consumable: true
+  occasion: 2
+  icon_index: 242
+  price: 1000
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 7
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 5
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 4
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 3
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 2
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: HP, resistance, & TP completely recovered.
+  name: Special Demon Medicine
+  consumable: true
+  occasion: 2
+  icon_index: 222
+  price: 5000
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 8
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 13
+    data_id: 0
+    value1: 100.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '500'
+    variance: 0
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Temporary buff to attack and agility!
+    But, lust stat rises.
+  name: Stimulant
+  consumable: true
+  occasion: 2
+  icon_index: 223
+  price: 1500
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 9
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 105
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 20.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Medicine that can greatly lower lust stat.
+  name: Remedy for Lust
+  consumable: true
+  occasion: 2
+  icon_index: 209
+  price: 5000
+  scope: 7
+  animation_id: 38
+  note: ''
+  speed: 0
+  id: 10
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 204
+    value1: 0.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 11
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 12
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Sketch of the thieves' hideout. View it if stumped!
+    However, hidden rooms appear to not be included...
+  name: Hideout Map
+  consumable: false
+  occasion: 2
+  icon_index: 225
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 13
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 271
+    value1: 0.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Drug created solely to corrupt women.
+    Lust stat rises greatly.
+  name: Corruption Drug
+  consumable: true
+  occasion: 2
+  icon_index: 195
+  price: 1500
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 14
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 200.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A blue orb that shines strangely.
+    When used on a black crystal, a path should open...
+  name: Blue Orb
+  consumable: false
+  occasion: 2
+  icon_index: 188
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 15
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A fragment of a red orb that shines strangely.
+    If gathered, they should become a single orb...
+  name: Red Orb Fragment
+  consumable: false
+  occasion: 2
+  icon_index: 123
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 16
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A red orb that shines strangely.
+    When used on a black crystal, a path should open...
+  name: Red Orb
+  consumable: false
+  occasion: 2
+  icon_index: 122
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 17
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Prison key. (Disposable)
+  name: Prison Key
+  consumable: false
+  occasion: 2
+  icon_index: 240
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 18
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Become refreshed in exchange for losing resistance.
+    The ingredients are secret...
+  name: Mustn't-Use Medicine
+  consumable: true
+  occasion: 2
+  icon_index: 0
+  price: 100
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 19
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.5
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 13
+    data_id: 0
+    value1: 50.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: -0.1
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Resistance power is recovered.
+    ...It feels like something is lost in exchange.
+  name: Great Medicine
+  consumable: true
+  occasion: 2
+  icon_index: 0
+  price: 100
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 20
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.5
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 12
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Amazingly completely recovers HP, resistance, & TP!
+    ...But it works so well it seems suspicious.
+  name: Strange Medicine
+  consumable: true
+  occasion: 0
+  icon_index: 195
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 21
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 13
+    data_id: 0
+    value1: 100.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 10.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Key to the porno filming facility.
+    Charge in! The den of evil!
+  name: Filming Facility Key
+  consumable: false
+  occasion: 2
+  icon_index: 242
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 22
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Key to enter the 1st studio.
+  name: Key to 1st Studio
+  consumable: false
+  occasion: 2
+  icon_index: 242
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 23
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Lever on which is written "2nd Studio".
+    Should be able to use it somewhere.
+  name: Control Lever
+  consumable: false
+  occasion: 2
+  icon_index: 560
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 24
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Key to leader's bedroom.
+    Don't enter without knocking when it's in use!
+  name: Bedroom Key
+  consumable: false
+  occasion: 2
+  icon_index: 240
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 25
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A rusty key.
+    I suppose it should be used on the rusted door...?
+  name: Rusted Key
+  consumable: false
+  occasion: 2
+  icon_index: 240
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 26
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Key with same symbol as the restraints of
+    women trained by Sadist.
+  name: S Key
+  consumable: false
+  occasion: 2
+  icon_index: 536
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 27
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Key with an ominous design.
+    Time to go to Black Castle and save Mask-chan!
+  name: 5th Studio Castle Key
+  consumable: false
+  occasion: 2
+  icon_index: 241
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 28
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Wasn't there an unopened chest somewhere...?
+  name: Succubus's Key
+  consumable: false
+  occasion: 2
+  icon_index: 243
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 29
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 30
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who was kidnapped.
+    "She's scared... I must hurry and save the remaining women too!"
+  name: Kidnapped Woman
+  consumable: false
+  occasion: 2
+  icon_index: 608
+  price: 300
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 31
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A woman fallen to hedonism who can't stop masturbating.
+    "What a lewd look on her face..."
+  name: Masturbation-Addicted Woman
+  consumable: false
+  occasion: 2
+  icon_index: 609
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 32
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Warrior in the militia. Caught and forced to submit.
+    "Controlling women with dicks... Unforgivable!"
+  name: Submitted Female Warrior
+  consumable: false
+  occasion: 2
+  icon_index: 610
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 33
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who was raped.
+    "I definitely... won't forgive this kind of deed!"
+  name: Violated Woman
+  consumable: false
+  occasion: 2
+  icon_index: 611
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 34
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Warrior in the militia. Older twin sister of Lejje.
+    "Though she behaved bravely... she's at her limit."
+  name: Swordswoman Legge
+  consumable: false
+  occasion: 2
+  icon_index: 612
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 35
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman dressed as a nun. Unknown if really is one.
+    "She awakened to worshipping dicks? ...Ridiculous."
+  name: Nun Outfit Woman
+  consumable: false
+  occasion: 2
+  icon_index: 613
+  price: 300
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 36
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Girl who was made into a toy by Hyoro-Guy.
+    "Treating a person like a dress-up doll... Unforgivable!"
+  name: Goth Loli Girl (Erotic Clothes)
+  consumable: false
+  occasion: 2
+  icon_index: 614
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 37
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Girl trained by Sadist to be an obedient pet.
+    "Lord Magistrate (daikan)? ...She's 100% trained..."
+  name: Pet Girl
+  consumable: false
+  occasion: 2
+  icon_index: 615
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 38
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman trained by Sadist as a sex slave.
+    "Lord (oyakata-sama)? Even her mind's fallen..."
+  name: Trained Woman
+  consumable: false
+  occasion: 2
+  icon_index: 616
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 39
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman suffering from a achingly aroused body due to teasing.
+    "Taking a woman's dignity using such tricks... Bastards."
+  name: Tease-Trained Woman
+  consumable: false
+  occasion: 2
+  icon_index: 617
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 40
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who has gone mad with unfulfilled lust due to teasing.
+    "What a carnal expression... *Gulp*"
+  name: Over-Teased Woman
+  consumable: false
+  occasion: 2
+  icon_index: 618
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 41
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Masochist slave who learned the taste of rope.
+    "Enjoying tying women with straw rope... Perverts!"
+  name: Bondage-Trained Woman
+  consumable: false
+  occasion: 2
+  icon_index: 619
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 42
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: (Reserved) Bondage-Trained Woman
+  consumable: true
+  occasion: 0
+  icon_index: 620
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 43
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who was bound tightly and left alone.
+    "T-To be tied up in such a state... How cruel!"
+  name: Bound Neglected Girl
+  consumable: false
+  occasion: 2
+  icon_index: 621
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: "下水道の橋\r\n専用アイテム\r\nそこ以外で使わない。"
+  speed: 0
+  id: 44
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Enemy kunoichi you defeated. "Apparently, they never talk,
+    no matter what kind of humiliation they receive. ...Huh."
+  name: Enemy Kunoichi
+  consumable: false
+  occasion: 2
+  icon_index: 622
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 45
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Member of the lady-only Kukill Female Knight Order.
+    "It looks like she couldn't beat dicks after all..."
+  name: Kukill Female Knight
+  consumable: false
+  occasion: 2
+  icon_index: 624
+  price: 1000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 46
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Sorceress who burned with a desire to burn up all men.
+    "Her ass has been completely developed... Too bad."
+  name: M-Meister of Submission Shaina
+  consumable: false
+  occasion: 2
+  icon_index: 625
+  price: 1500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 47
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Swordswoman whose life's goal was to beat men.
+    "Defeating dicks by making them cum? ...I-I see."
+  name: Arena-Slave of Oral Shame Leia
+  consumable: false
+  occasion: 2
+  icon_index: 626
+  price: 1500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 48
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Martial artist who boasted she'd never lose to guys.
+    "So... she wants to know defeat (through dicks)."
+  name: Flesh-Fist of Depravity Emelda
+  consumable: false
+  occasion: 2
+  icon_index: 627
+  price: 1500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 49
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A jakigan girl who scorned men as brainless idiots.
+    "Dicks' majesty has been engraved into her? ...Enough joking."
+  name: Rose-Colored Meat Toilet Shion
+  consumable: false
+  occasion: 2
+  icon_index: 628
+  price: 1500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 50
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Leader of the Kukill Knights.
+    "So she wasn't able to win against dicks after all... Oh, my."
+  name: Princess Knight of Lewd Shame Crestia
+  consumable: false
+  occasion: 2
+  icon_index: 629
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 51
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman restained with a straightjacket.
+    "It won't come off... I'll leave it to the merchant."
+  name: Straightjacketed Woman
+  consumable: false
+  occasion: 2
+  icon_index: 630
+  price: 300
+  scope: 0
+  animation_id: 0
+  note: 目隠しポールギャグ
+  speed: 0
+  id: 52
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who was used for sex as a meat toilet.
+    "Kuh... N-No woman enjoys such treatment!"
+  name: Toilet Woman
+  consumable: false
+  occasion: 2
+  icon_index: 631
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: 肉便器として据え付けられていたシンボル
+  speed: 0
+  id: 53
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who was locked in a pillory and used for sex.
+    "Exposed and raped... Such humiliation is...!"
+  name: Pillory-Trained Woman
+  consumable: false
+  occasion: 2
+  icon_index: 632
+  price: 800
+  scope: 0
+  animation_id: 0
+  note: 反省板に繋がれたシンボル
+  speed: 0
+  id: 54
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman whose masochism was unlocked using a wooden horse.
+    "T-There's a pervert who feels pleasure from so much pain?"
+  name: Wooden Horse-Trained Woman
+  consumable: false
+  occasion: 2
+  icon_index: 633
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: 木馬にまたがったシンボル
+  speed: 0
+  id: 55
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman trained as a pregnant slave.
+    "S-Stinky semen... is o-overflowing... Kuh."
+  name: Inseminated Woman
+  consumable: false
+  occasion: 2
+  icon_index: 634
+  price: 500
+  scope: 0
+  animation_id: 0
+  note: オークに種付けされた女性
+  speed: 0
+  id: 56
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman made to do indecent dances.
+    "Just how much must they humiliate women to be satisfied?!"
+  name: Erotic Dancer
+  consumable: false
+  occasion: 2
+  icon_index: 635
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 57
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Defeated enemy kunoichi.
+    "I bound her so she won't struggle... And she's happy."
+  name: Tied Up Kunoichi
+  consumable: false
+  occasion: 2
+  icon_index: 623
+  price: 1500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 58
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Kunoichi girl whose sexual sensitivity was maximized.
+    "She was originally a master jakigan user...?"
+  name: Completely Trained Kunoichi
+  consumable: false
+  occasion: 2
+  icon_index: 636
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 59
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Police (costume?) girl whose anus was developed.
+    "It seems impertinent girls rouse men's desire for anal rape..."
+  name: Anal-Obsessed Police Officer
+  consumable: false
+  occasion: 2
+  icon_index: 637
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 60
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Miko girl who yielded to pleasure and submitted to dicks.
+    "Apparently she was a swordmaster, but... she's now dick-crazy."
+  name: Sex Slave Miko Swordswoman
+  consumable: false
+  occasion: 2
+  icon_index: 638
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 61
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Kunoichi girl trained to be utterly obedient to males.
+    "A ninja guardian girl... She was made into a submissive pet."
+  name: Service Pet Kunoichi
+  consumable: false
+  occasion: 2
+  icon_index: 639
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 62
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Former leader of the Kukill Knights.
+    "She lost to dicks and became a succubus... How regretful."
+  name: Succubus Crestia
+  consumable: false
+  occasion: 2
+  icon_index: 640
+  price: 2500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 63
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Woman who degenerated into a succubus.
+    "Ugh... She has gone completely dick-crazy."
+  name: Captured Succubus
+  consumable: false
+  occasion: 2
+  icon_index: 641
+  price: 2000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 64
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A corrupted goddess. Sadist with a bondage fetish.
+    "It seems she was a wind deity of freedom and prosperity..."
+  name: Wind Demon Sylph
+  consumable: false
+  occasion: 2
+  icon_index: 642
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 65
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A corrupted goddess. Pregnant semen-crazy deity.
+    "It seems she was a water deity of life and birth..."
+  name: Water Demon Undine
+  consumable: false
+  occasion: 2
+  icon_index: 643
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 66
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A corrupted goddess. Masturbation-loving sex monster.
+    "It seems she was sky deity of modesty and intelligence..."
+  name: Sky Demon Angel
+  consumable: false
+  occasion: 2
+  icon_index: 644
+  price: 3000
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 67
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Masochist slave who loves being abused.
+    "She looks like she feels so good... *Gulp*"
+  name: Wind Demon Masochist Slave
+  consumable: false
+  occasion: 2
+  icon_index: 645
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 68
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Pregnant slave who loves semen.
+    "She has a melted expression... S-She looks so satisfied..."
+  name: Water Demon Pregnant Slave
+  consumable: false
+  occasion: 2
+  icon_index: 646
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 69
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Lewd slave who loves masturbating.
+    "She seems to climax with so much pleasure..."
+  name: Sky Demon Sex Slave
+  consumable: false
+  occasion: 2
+  icon_index: 647
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 70
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Wife unsatisfied by her husband's cock who yielded her body to a
+    merchant. "Was the merchant's big cock... r-really so tempting?"
+  name: NTR'd Beautiful Wife
+  consumable: false
+  occasion: 2
+  icon_index: 648
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 71
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Ojou-sama who chose an older man's persistent attacks over her
+    boyfriend. "Seems it felt good to be a rich guy's toy... Hmm."
+  name: NTR'd Flat-Chested Young Lady
+  consumable: false
+  occasion: 2
+  icon_index: 649
+  price: 600
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 72
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Naughty maid who stopped caring for her master and slept with a
+    butler. "So she chose an experienced gentleman over a child..."
+  name: NTR'd Maid
+  consumable: false
+  occasion: 2
+  icon_index: 650
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 73
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Public Morals Swordswoman who degenerated into a succubus.
+    Awakened to masochistic training. "N-No way... Them too..."
+  name: Captured Prison Guard Succubus
+  consumable: false
+  occasion: 2
+  icon_index: 651
+  price: 2200
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 74
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Guard of the molesters' cage. Captured during a jailbreak and
+    trained. "Violated by criminals... It must be mortifying..."
+  name: Violated Anti-Molester Guard
+  consumable: false
+  occasion: 2
+  icon_index: 652
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 75
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    The fate of a woman who becomes obsessed with NTR. "She awoke
+    to being trained by people other than the man she loves..."
+  name: Captured NTR Succubus
+  consumable: false
+  occasion: 2
+  icon_index: 653
+  price: 2200
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 76
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Succubus who works at a strip club.
+    "Sex after exertion is the best! ...Apparently."
+  name: Captured Stripper
+  consumable: false
+  occasion: 2
+  icon_index: 654
+  price: 2200
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 77
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Strip club girl.
+    "Caught by excited men and raped all over..."
+  name: Violated Stripper
+  consumable: false
+  occasion: 2
+  icon_index: 655
+  price: 400
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 78
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Girl violated in an orgy party hosted by Black.
+    "It seems she can't forget those 3 people's dicks... *Gulp*"
+  name: Sumptuous Feast of a Girl
+  consumable: false
+  occasion: 2
+  icon_index: 656
+  price: 500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 79
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Girl violated on a ship.
+    "It seems being fucked out in the open felt good..."
+  name: Girl Fucked on a Ship
+  consumable: false
+  occasion: 2
+  icon_index: 657
+  price: 500
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 80
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    Warrior who was continuously trained to become a masochist
+    using a triangular wooden horse. "...Sorry I was too late."
+  name: Female Warrior Turned Masochist
+  consumable: false
+  occasion: 2
+  icon_index: 658
+  price: 1200
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 81
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 82
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 83
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 84
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 85
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 86
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 87
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 88
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 89
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 90
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 91
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 92
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 93
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 94
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 95
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 96
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 97
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 98
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: （Reserved） Girl
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 99
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A blue orb that shines strangely.
+    When used on a black crystal, a path should open...
+  name: Blue Orb (plan to remove it)
+  consumable: false
+  occasion: 2
+  icon_index: 188
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 100
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A fragment of a red orb that shines strangely.
+    If gathered, they should become a single orb...
+  name: Red Orb Fragment (plan to remove it)
+  consumable: false
+  occasion: 2
+  icon_index: 123
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 101
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: |-
+    A red orb that shines strangely.
+    When used on a black crystal, a path should open...
+  name: Red Orb
+  consumable: false
+  occasion: 2
+  icon_index: 122
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: "15/7/22（バグ対応 v1.0）\r\n削除したはずだったが配布イベントの修正に漏れがあったために製品版で配布されてしまった。\r\nこのためこのアイテム[102]は残し、クリスタルイベントの開始時に正式版の[017]と入れ替えることで対応する。\r\n※v1.0で入手されたセーブデータとの互換のためアイテム[102]の再利用は不可能とする。"
+  speed: 0
+  id: 102
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 103
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 104
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 105
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 106
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 107
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 108
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 109
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 110
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0

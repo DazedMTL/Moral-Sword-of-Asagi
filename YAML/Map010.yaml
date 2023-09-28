@@ -1,0 +1,549 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 13
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: 救出 <Actor:002>
+    x: 0
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: false
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [※表情修正前のを念のためバックアップしておく・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 28
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: Evil
+        character_index: 0
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: false
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Dungeon8, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, actor02_event001a, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ora・・・\.How's that！\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Apologize...apologize!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll beat you to death if you don't！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [・・・Your lash is weak.\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You're holding it all wrong.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My whip doesn't suit a man like you.\.\.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've hit myself in the butt harder than that.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You goddamn bitch...\.\.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Think you're better than me...!\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ora！\|...How's this！\|...Take this！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Shit...\.\.it's useless...\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your whipping skills are terrible.\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['So clumsy and awkward, there''s no hope for you.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [\!Hiiin！\.\^]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Bow4, pitch: 130, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: actor001_ride06, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 10, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 30, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Paralyze1, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, actor02_event001b, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Chi...\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your ass is so sensitive.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ha...\.hii...\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Sto-\.stop...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_a, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_a, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_a, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sigh, absolutely no gratification when she moans']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for more so quick.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 130, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 130, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 130, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ah\. ah\. a・・・\.No・・・\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Such sounds from my asshole・・・Haya!・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hehe,\.\. so ass play is better than the whip？']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The whip is good・・・\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Swat me with the whip.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll surrender as a masochist pig.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Foolish woman, did you forget what you just said！\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Do you think you can decieve me so？\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Were you confused about my lack of skill?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: kucha05_b, pitch: 115, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Please, anything else・・・\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Just no more anal・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Heh・・・\.this is good.\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['When your friend is caught,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [she can enjoy this too.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A suitable fellow can fuck her senseless,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [as I slowly make you into a masochist pig.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow8, pitch: 80, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...Unfortunately, your friends won''t be coming.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Huh? ...\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oof!\.\....Whump!...\.\.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Gah!\.\....*Faint*...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash8, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash7, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash9, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: actor02b_01
+        character_index: 6
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Dungeon1, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kuh...\.\. I-I'm sorry...\.\.You've saved me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm sorry I got you involved in this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...No, I was just careless.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...Won''t happen again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['By the way, Whip-dono.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...What is a masochist pig?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...You don''t need to know.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Forget it！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::ME {name: Item, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　　　　Whip was rescued!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 23
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: Evil
+        character_index: 0
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: false
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 2
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [※必要なイベントフラグを全てON]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [　アサギが捕まるとイベント中でも強制的にここまでワープするため]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [11, 11, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [12, 12, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [14, 14, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [19, 19, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, $actor01e_01, 0, actor01_01, 20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Dungeon8, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 15, 39, 11, 2, 0]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &2 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - &3 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &4 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &5 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &6 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &8 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: actor001_kiss01, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, actor01_event001, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nn...\.ammph...\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Kuu...\.\.are you satisfied yet?！\!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Let me go damnit！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Shut up...\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Sucking me off should silence you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [So much talking is annoying.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll force my heat all the way down your neck！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ku...\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...Ammph, *Slurp*...\.\.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Slurp* *Slurp*...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Whoowhee、That's great!\!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm going to make sure you suck my]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [meatstick everyday. Treat it gently.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [・・・low-life・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['When my pals in the banquet hall catch your friend,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we'll rape you both in turns！ Ha ha!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...I see,\| then you''ll enjoy this.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oof！\.\....Ack！\.\....Higii！\.\.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [S-Stop・tha-...\| Aaaaaaaaaaahh！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash8, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash7, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Slash9, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: B
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: $ExGraphicActor
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &10 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Dungeon1, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [So it's Whip-dono...\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I-I'm in your debt.\.\.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You really saved me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...I was just passing through.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I trust you won''t be so reckless in the future,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [rushing into a group of enemies like that.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm ashamed...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor002b_01, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The enemy leader escaped toward the inner corridor.\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Will you be coming?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [actor001b_01, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Of course!\|]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This debt will be twice returned!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 249, p: [!ruby/object:RPG::ME {name: Item, pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　　　Rescued by Whip！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+tileset_id: 1
+encounter_step: 30
+width: 17
+data: !ruby/object:Table
+  dim: 3
+  x: 17
+  y: 13
+  z: 4
+  data:
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: false
+autoplay_bgm: false
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: ''
+specify_battleback: false
+note: ''
+battleback1_name: ''
+battleback2_name: ''

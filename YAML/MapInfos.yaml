@@ -1,0 +1,785 @@
+---
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: 洞窟の入口
+  expanded: false
+  order: 39
+  scroll_y: 826
+  parent_id: 0
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 1411
+  name: 1F:宴会場
+  expanded: false
+  order: 41
+  scroll_y: 967
+  parent_id: 0
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: ドットテスト
+  expanded: true
+  order: 11
+  scroll_y: 1137
+  parent_id: 1
+30: !ruby/object:RPG::MapInfo
+  scroll_x: 912
+  name: 1F:牢屋
+  expanded: false
+  order: 42
+  scroll_y: 878
+  parent_id: 15
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: test
+  expanded: false
+  order: 1
+  scroll_y: 208
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 489
+  name: margin002
+  expanded: false
+  order: 2
+  scroll_y: 405
+  parent_id: 1
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin003
+  expanded: false
+  order: 3
+  scroll_y: 208
+  parent_id: 1
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin004
+  expanded: false
+  order: 4
+  scroll_y: 208
+  parent_id: 1
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin005
+  expanded: false
+  order: 5
+  scroll_y: 208
+  parent_id: 1
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin006
+  expanded: false
+  order: 6
+  scroll_y: 208
+  parent_id: 1
+7: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin007
+  expanded: false
+  order: 7
+  scroll_y: 208
+  parent_id: 1
+8: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin008
+  expanded: false
+  order: 8
+  scroll_y: 208
+  parent_id: 1
+9: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin009
+  expanded: false
+  order: 9
+  scroll_y: 208
+  parent_id: 1
+10: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: margin010
+  expanded: false
+  order: 10
+  scroll_y: 208
+  parent_id: 1
+50: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: backup
+  expanded: false
+  order: 15
+  scroll_y: 208
+  parent_id: 0
+51: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: 洞窟の入口
+  expanded: true
+  order: 16
+  scroll_y: 448
+  parent_id: 50
+52: !ruby/object:RPG::MapInfo
+  scroll_x: 966
+  name: 盗賊のアジト：1F
+  expanded: true
+  order: 17
+  scroll_y: 437
+  parent_id: 51
+53: !ruby/object:RPG::MapInfo
+  scroll_x: 592
+  name: 盗賊のアジト：B1
+  expanded: false
+  order: 18
+  scroll_y: 1072
+  parent_id: 52
+54: !ruby/object:RPG::MapInfo
+  scroll_x: 550
+  name: 牢屋
+  expanded: false
+  order: 19
+  scroll_y: 896
+  parent_id: 52
+11: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 開始位置
+  expanded: false
+  order: 20
+  scroll_y: 208
+  parent_id: 0
+12: !ruby/object:RPG::MapInfo
+  scroll_x: 653
+  name: B1:調教施設
+  expanded: false
+  order: 43
+  scroll_y: 784
+  parent_id: 0
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 638
+  name: 道＆村（オープニング）
+  expanded: false
+  order: 33
+  scroll_y: 640
+  parent_id: 0
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: マッサージ
+  expanded: false
+  order: 21
+  scroll_y: 416
+  parent_id: 11
+18: !ruby/object:RPG::MapInfo
+  scroll_x: 673
+  name: B2:撮影施設
+  expanded: false
+  order: 49
+  scroll_y: 397
+  parent_id: 0
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 229
+  name: B2:第１スタジオ（教会）
+  expanded: false
+  order: 52
+  scroll_y: 400
+  parent_id: 18
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: B2:第２スタジオ（時代劇）
+  expanded: false
+  order: 55
+  scroll_y: 512
+  parent_id: 18
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: B2:第３スタジオ（お城）
+  expanded: true
+  order: 59
+  scroll_y: 496
+  parent_id: 18
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: B2:倉庫（セーブポイント）
+  expanded: false
+  order: 51
+  scroll_y: 800
+  parent_id: 18
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 1544
+  name: B3:撮影施設
+  expanded: false
+  order: 62
+  scroll_y: 1879
+  parent_id: 0
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 582
+  name: B3:第４スタジオ（浜辺）
+  expanded: false
+  order: 67
+  scroll_y: 800
+  parent_id: 23
+25: !ruby/object:RPG::MapInfo
+  scroll_x: 401
+  name: B3:吸血鬼城
+  expanded: false
+  order: 70
+  scroll_y: 435
+  parent_id: 38
+26: !ruby/object:RPG::MapInfo
+  scroll_x: 1144
+  name: B1:書斎
+  expanded: false
+  order: 45
+  scroll_y: 746
+  parent_id: 61
+27: !ruby/object:RPG::MapInfo
+  scroll_x: 225
+  name: B2:和室
+  expanded: false
+  order: 56
+  scroll_y: 397
+  parent_id: 20
+28: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: B2:お姫様ルーム
+  expanded: false
+  order: 60
+  scroll_y: 432
+  parent_id: 21
+29: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: B2:留置所
+  expanded: false
+  order: 50
+  scroll_y: 480
+  parent_id: 18
+31: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: B1:スタジオ制御室
+  expanded: false
+  order: 48
+  scroll_y: 336
+  parent_id: 61
+32: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: B2:ボイラー室
+  expanded: false
+  order: 61
+  scroll_y: 320
+  parent_id: 18
+33: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: B3:下水道
+  expanded: false
+  order: 63
+  scroll_y: 652
+  parent_id: 23
+34: !ruby/object:RPG::MapInfo
+  scroll_x: 1184
+  name: B4:遺跡
+  expanded: false
+  order: 75
+  scroll_y: 994
+  parent_id: 0
+35: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: B3:間欠泉の部屋
+  expanded: false
+  order: 64
+  scroll_y: 320
+  parent_id: 33
+36: !ruby/object:RPG::MapInfo
+  scroll_x: 752
+  name: B1:書斎（寝室ロック）
+  expanded: false
+  order: 46
+  scroll_y: 710
+  parent_id: 26
+37: !ruby/object:RPG::MapInfo
+  scroll_x: 390
+  name: F1~B3エレベーター
+  expanded: false
+  order: 79
+  scroll_y: 448
+  parent_id: 0
+38: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: B3:第５スタジオ（処刑場）
+  expanded: true
+  order: 69
+  scroll_y: 826
+  parent_id: 23
+39: !ruby/object:RPG::MapInfo
+  scroll_x: 784
+  name: B2:第１スタジオ（神殿）
+  expanded: false
+  order: 65
+  scroll_y: 544
+  parent_id: 23
+40: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: B4:第４スタジオ～海底～
+  expanded: false
+  order: 76
+  scroll_y: 480
+  parent_id: 34
+41: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: B4:海底洞窟
+  expanded: false
+  order: 77
+  scroll_y: 608
+  parent_id: 40
+42: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: EX:異次元
+  expanded: false
+  order: 80
+  scroll_y: 594
+  parent_id: 0
+43: !ruby/object:RPG::MapInfo
+  scroll_x: 944
+  name: EX:淫欲の祭壇
+  expanded: false
+  order: 81
+  scroll_y: 643
+  parent_id: 42
+44: !ruby/object:RPG::MapInfo
+  scroll_x: 489
+  name: EX:祭壇（イベント）
+  expanded: false
+  order: 82
+  scroll_y: 405
+  parent_id: 43
+45: !ruby/object:RPG::MapInfo
+  scroll_x: 734
+  name: B3:鏡の世界1（イベント）
+  expanded: false
+  order: 71
+  scroll_y: 854
+  parent_id: 25
+46: !ruby/object:RPG::MapInfo
+  scroll_x: 304
+  name: EX:無限回廊（イベント）
+  expanded: false
+  order: 86
+  scroll_y: 208
+  parent_id: 87
+47: !ruby/object:RPG::MapInfo
+  scroll_x: 1032
+  name: EX:ストリップ劇場（初回マップ）
+  expanded: false
+  order: 88
+  scroll_y: 794
+  parent_id: 87
+48: !ruby/object:RPG::MapInfo
+  scroll_x: 740
+  name: EX:ストリップ劇場（イベント）
+  expanded: false
+  order: 87
+  scroll_y: 794
+  parent_id: 87
+49: !ruby/object:RPG::MapInfo
+  scroll_x: 891
+  name: EX:NTRアパート
+  expanded: false
+  order: 89
+  scroll_y: 805
+  parent_id: 42
+55: !ruby/object:RPG::MapInfo
+  scroll_x: 1160
+  name: EX:教会（監禁イベント）
+  expanded: false
+  order: 54
+  scroll_y: 934
+  parent_id: 19
+56: !ruby/object:RPG::MapInfo
+  scroll_x: 1118
+  name: EX:痴漢の檻
+  expanded: false
+  order: 90
+  scroll_y: 1016
+  parent_id: 42
+57: !ruby/object:RPG::MapInfo
+  scroll_x: 746
+  name: EX:吸血鬼城（監禁イベント）
+  expanded: false
+  order: 74
+  scroll_y: 794
+  parent_id: 25
+58: !ruby/object:RPG::MapInfo
+  scroll_x: 824
+  name: 風紀学園（イベント）
+  expanded: false
+  order: 29
+  scroll_y: 794
+  parent_id: 0
+59: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP059
+  expanded: false
+  order: 12
+  scroll_y: 208
+  parent_id: 17
+60: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: MAP060
+  expanded: false
+  order: 13
+  scroll_y: 1195
+  parent_id: 17
+61: !ruby/object:RPG::MapInfo
+  scroll_x: 751
+  name: B1:事務所
+  expanded: false
+  order: 44
+  scroll_y: 1285
+  parent_id: 12
+62: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: マップリセット用
+  expanded: false
+  order: 22
+  scroll_y: 208
+  parent_id: 11
+63: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: B2:第２スタジオ（監禁イベント）
+  expanded: false
+  order: 58
+  scroll_y: 512
+  parent_id: 20
+64: !ruby/object:RPG::MapInfo
+  scroll_x: 782
+  name: B2:第１スタジオ（監禁イベント）
+  expanded: false
+  order: 66
+  scroll_y: 544
+  parent_id: 39
+65: !ruby/object:RPG::MapInfo
+  scroll_x: 864
+  name: B1:書斎（監禁イベント）
+  expanded: false
+  order: 47
+  scroll_y: 928
+  parent_id: 26
+66: !ruby/object:RPG::MapInfo
+  scroll_x: 341
+  name: B2:和室（全滅イベント）
+  expanded: false
+  order: 57
+  scroll_y: 619
+  parent_id: 27
+67: !ruby/object:RPG::MapInfo
+  scroll_x: 443
+  name: B2:第１スタジオ（全滅イベント）
+  expanded: false
+  order: 53
+  scroll_y: 395
+  parent_id: 19
+68: !ruby/object:RPG::MapInfo
+  scroll_x: 370
+  name: B3:第４スタジオ（監禁イベント）
+  expanded: false
+  order: 68
+  scroll_y: 794
+  parent_id: 24
+69: !ruby/object:RPG::MapInfo
+  scroll_x: 848
+  name: B4:遺跡（監禁イベント）
+  expanded: false
+  order: 78
+  scroll_y: 352
+  parent_id: 34
+70: !ruby/object:RPG::MapInfo
+  scroll_x: 341
+  name: B3:吸血鬼城（全滅イベント）
+  expanded: false
+  order: 73
+  scroll_y: 291
+  parent_id: 25
+71: !ruby/object:RPG::MapInfo
+  scroll_x: 734
+  name: B3:鏡の世界2（イベント）
+  expanded: false
+  order: 72
+  scroll_y: 704
+  parent_id: 25
+72: !ruby/object:RPG::MapInfo
+  scroll_x: 303
+  name: 村（脱出失敗イベント）
+  expanded: false
+  order: 34
+  scroll_y: 574
+  parent_id: 14
+73: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: 村テスト
+  expanded: false
+  order: 14
+  scroll_y: 862
+  parent_id: 17
+74: !ruby/object:RPG::MapInfo
+  scroll_x: 1545
+  name: EX:淫天獄
+  expanded: false
+  order: 91
+  scroll_y: 1770
+  parent_id: 42
+75: !ruby/object:RPG::MapInfo
+  scroll_x: 1176
+  name: EX:淫天獄の終着
+  expanded: false
+  order: 92
+  scroll_y: 716
+  parent_id: 74
+76: !ruby/object:RPG::MapInfo
+  scroll_x: 1008
+  name: EX:淫天獄の終着（エンディング）
+  expanded: false
+  order: 93
+  scroll_y: 1012
+  parent_id: 74
+77: !ruby/object:RPG::MapInfo
+  scroll_x: 1206
+  name: EX:淫天国の終わり（エンディング）
+  expanded: false
+  order: 94
+  scroll_y: 794
+  parent_id: 74
+78: !ruby/object:RPG::MapInfo
+  scroll_x: 321
+  name: EX:祭壇（エンディング）
+  expanded: false
+  order: 83
+  scroll_y: 478
+  parent_id: 43
+79: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: EX:廊下（エンディング）
+  expanded: false
+  order: 84
+  scroll_y: 413
+  parent_id: 43
+80: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: アジトの遠景（エンディング）
+  expanded: false
+  order: 37
+  scroll_y: 681
+  parent_id: 14
+81: !ruby/object:RPG::MapInfo
+  scroll_x: 370
+  name: 村（エンディング）
+  expanded: false
+  order: 35
+  scroll_y: 780
+  parent_id: 14
+82: !ruby/object:RPG::MapInfo
+  scroll_x: 849
+  name: 道（エンディング）
+  expanded: false
+  order: 36
+  scroll_y: 742
+  parent_id: 14
+83: !ruby/object:RPG::MapInfo
+  scroll_x: 303
+  name: クレジット
+  expanded: false
+  order: 38
+  scroll_y: 279
+  parent_id: 14
+84: !ruby/object:RPG::MapInfo
+  scroll_x: 918
+  name: 風紀学園（全滅イベント）
+  expanded: false
+  order: 30
+  scroll_y: 822
+  parent_id: 58
+85: !ruby/object:RPG::MapInfo
+  scroll_x: 464
+  name: 風紀学園教室（全滅イベント）
+  expanded: false
+  order: 31
+  scroll_y: 590
+  parent_id: 58
+86: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 風紀学園廊下（全滅イベント）
+  expanded: false
+  order: 32
+  scroll_y: 480
+  parent_id: 58
+87: !ruby/object:RPG::MapInfo
+  scroll_x: 1093
+  name: EX:ストリップ劇場
+  expanded: false
+  order: 85
+  scroll_y: 495
+  parent_id: 42
+88: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: 森の無限回廊
+  expanded: false
+  order: 40
+  scroll_y: 480
+  parent_id: 13
+90: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: コロシアム入口
+  expanded: true
+  order: 95
+  scroll_y: 208
+  parent_id: 0
+91: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: コロシアム
+  expanded: false
+  order: 96
+  scroll_y: 208
+  parent_id: 90
+94: !ruby/object:RPG::MapInfo
+  scroll_x: 1580
+  name: （予約）秘密の部屋（３、未使用）
+  expanded: false
+  order: 26
+  scroll_y: 1238
+  parent_id: 89
+96: !ruby/object:RPG::MapInfo
+  scroll_x: 1280
+  name: （予約）秘密の部屋（５、未使用）
+  expanded: false
+  order: 28
+  scroll_y: 1542
+  parent_id: 89
+92: !ruby/object:RPG::MapInfo
+  scroll_x: 1930
+  name: 秘密の部屋（１）
+  expanded: false
+  order: 24
+  scroll_y: 2059
+  parent_id: 89
+89: !ruby/object:RPG::MapInfo
+  scroll_x: 1178
+  name: 秘密の部屋（全景、未使用）
+  expanded: true
+  order: 23
+  scroll_y: 2080
+  parent_id: 11
+95: !ruby/object:RPG::MapInfo
+  scroll_x: 1750
+  name: 秘密の部屋（４）
+  expanded: false
+  order: 27
+  scroll_y: 770
+  parent_id: 89
+93: !ruby/object:RPG::MapInfo
+  scroll_x: 1613
+  name: 秘密の部屋（２）
+  expanded: false
+  order: 25
+  scroll_y: 1511
+  parent_id: 89
+97: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: チンピラ軍団
+  expanded: false
+  order: 97
+  scroll_y: 208
+  parent_id: 90
+98: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 山賊集団
+  expanded: false
+  order: 98
+  scroll_y: 208
+  parent_id: 90
+99: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 忍者頭領
+  expanded: false
+  order: 99
+  scroll_y: 208
+  parent_id: 90
+100: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 孕ませオーク
+  expanded: false
+  order: 100
+  scroll_y: 208
+  parent_id: 90
+101: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 虚無僧
+  expanded: false
+  order: 101
+  scroll_y: 208
+  parent_id: 90
+102: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 拷問官
+  expanded: false
+  order: 102
+  scroll_y: 208
+  parent_id: 90
+112: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: アクスケ
+  expanded: false
+  order: 106
+  scroll_y: 208
+  parent_id: 90
+109: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 三兄弟
+  expanded: false
+  order: 103
+  scroll_y: 208
+  parent_id: 90
+110: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: サドスト
+  expanded: false
+  order: 104
+  scroll_y: 208
+  parent_id: 90
+111: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: ブラック
+  expanded: false
+  order: 105
+  scroll_y: 208
+  parent_id: 90
+103: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: インキュバスA
+  expanded: false
+  order: 107
+  scroll_y: 208
+  parent_id: 90
+104: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: インキュバスB
+  expanded: false
+  order: 108
+  scroll_y: 208
+  parent_id: 90
+105: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: オークキング
+  expanded: false
+  order: 109
+  scroll_y: 208
+  parent_id: 90
+106: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: ウンディーネ
+  expanded: false
+  order: 110
+  scroll_y: 208
+  parent_id: 90
+107: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: シルフ
+  expanded: false
+  order: 111
+  scroll_y: 208
+  parent_id: 90
+108: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: エンジェル
+  expanded: false
+  order: 112
+  scroll_y: 208
+  parent_id: 90
