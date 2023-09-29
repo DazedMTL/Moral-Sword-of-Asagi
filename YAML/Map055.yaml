@@ -1233,7 +1233,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '223', 'p': [!ruby/object:Tone {'r': !!float '68.0', 'g': !!float '68.0', 'b': !!float '68.0', 'a': !!float '85.0'}, !!int '300', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['I''m glad! \., are you okay?!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Thank goodness! \., are you alright?!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor002b_02', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['I-I...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '7', !!int '8', !!bool 'true']}

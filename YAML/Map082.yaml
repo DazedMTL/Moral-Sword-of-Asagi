@@ -873,7 +873,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '1', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ahh, I thought I could finally sleep in bed...
 
-            Camping is tough...']}
+            Camping is tough, huh...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '223', 'p': [!ruby/object:Tone {'r': !!float '0.0', 'g': !!float '0.0', 'b': !!float '0.0', 'a': !!float '0.0'}, !!int '120', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '196', !!int '196', !!int '0', !!int '0', !!int '510']}
@@ -883,7 +883,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '1', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ahh, I thought I could finally sleep in bed...
 
-            Camping is tough...']}
+            Camping is tough, huh...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '196', !!int '196', !!int '0', !!int '0', !!int '520']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['↑フロー20']}
@@ -905,9 +905,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '1', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hey! This is also an important duty, you know!
 
-            And it''s also part of our training. We must
+            And it''s also part of our training. We have to
 
-            approach it seriously!']}
+            take it seriously!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '196', !!int '196', !!int '0', !!int '0', !!int '530']}

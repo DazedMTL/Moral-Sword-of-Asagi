@@ -1558,7 +1558,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '0', !!int '19', !!int '0', !!int '0', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '0', !!int '20', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['People2', !!int '3', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['Please take care of me again☆']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['I''ll be counting on you again☆']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'Don''t buy']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
@@ -1626,7 +1626,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': &52 ['People2', !!int '3', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['In this remote and desolate place, it''s difficult
 
-            to find supplies...']}
+            to find suppliers...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': *52}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['I''m studying hard, you know.']}
@@ -1635,9 +1635,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '2', '...you don''t have enough money.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': &53 ['People2', !!int '3', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['...Well... But you know, I also run a
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['...Well... But I''m also in the business, you
 
-            business...']}
+            know...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': *53}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['Sure! If you stick with me for a bit, I''ll give
@@ -3293,7 +3293,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '301', 'p': [!!int '0', !!int '9', !!bool 'false', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '9']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Damn it... Retreat for now!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Damn it! Retreat for now!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'

@@ -623,13 +623,15 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Please no more.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '8', !!int '5', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It would be good if you were honest from the
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It would be better if you were honest from the
 
             beginning!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Since our hideout got destroyed... Let''s sell
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Since our hideout got destroyed...! Let''s sell
 
-            these guys off and use the money to escape.']}
+            these guys off for now and use the money to
+
+            escape.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '7', !!int '6', !!bool 'false']}
@@ -641,9 +643,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['If \C[17]White Mask\C[0] was here...\!\.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '10', !!int '9', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\., huh! If it''s that cheeky exhibitionist
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\., huh! That arrogant exhibitionist girl got
 
-            girl, she got crushed along with the hideout.']}
+            crushed along with the hideout.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '12', '']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '12', '']}
@@ -803,9 +805,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*25]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*26]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Throughout the ages... \>Evil has never
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Throughout the ages... Evil has never prospered!
 
-            prospered! Justice has never been defeated!']}
+            Justice has never been defeated!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
@@ -845,14 +847,14 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*36]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*37]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if they''re turned into a cum-filled slut\^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if I''m turned into a cum-filled slut\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Sound1', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Even if they''re turned into a cum-filled slut,
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Even if I''m turned into a cum-filled slut,
 
-            \C[27]they will still try to maintain their
+            \C[27]I will still proudly show the double peace
 
-            dignity with a double peace sign\C[0]...']}
+            sign of humiliation...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '112', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '196', !!int '0', !!int '170', !!int '1']}
@@ -884,7 +886,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*41]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*42]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if they are thrown into a continuous climax
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if I were to experience continuous orgasmic
 
             hell...']}
       - !ruby/object:RPG::EventCommand
@@ -903,12 +905,12 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*43]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*44]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\. Even if, even if...']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if, even if...\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if, even if... Even if they struggle to crawl
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if, even if... it''s tough to crawl out from
 
-            out from under the rubble...']}
+            under the rubble...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Equip2', 'pitch': !!int '150', 'volume': !!int '20'}]}
       - !ruby/object:RPG::EventCommand
@@ -941,9 +943,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*52]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*53]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor004b_03', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Even if, even if... \>\C[6]Even if it''s tough to
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Even if, even if... Even if it''s tough to crawl
 
-            crawl out from under the rubble, \C[0]...\.\^']}
+            out from under the rubble...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '224', 'p': [!ruby/object:Color {'r': !!float '255.0', 'g': !!float '255.0', 'b': !!float '255.0', 'a': !!float '34.0'}, !!int '60', !!bool 'false']}
@@ -973,10 +975,12 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*55]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*56]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Wha- \.テメーは\C[17]Mask of White\C[0]!? \^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hey, \.You...\C[17]Mask of White\C[0]!?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '10', !!int '6', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ["\n\\>Hey, are you \\C[17]Mask of White\\C[0]!? \nHey, are you Mask of White!?"]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
+
+            \>Hey, you''re \C[17]Mask of White\C[0]!?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '112', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '196', !!int '0', !!int '200', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '113', 'p': []}
@@ -1047,7 +1051,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \>Female Swordsman\<Reggie: M-Mask...! \.They''re here! \C[6]The main heroine is here! \.\.\C[0]With this, we can win!']}
+            \>Female Swordsman\<Regie: M-Mask...! \.She''s here! \C[6]The main heroine is here! \.\.\C[0]With this, we can win!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '224', 'p': [!ruby/object:Color {'r': !!float '255.0', 'g': !!float '255.0', 'b': !!float '255.0', 'a': !!float '34.0'}, !!int '300', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '4', !!int '6']}
@@ -1076,11 +1080,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*72]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*73]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor004b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ohohohoho!! \C[17]Mask of White\C[0] is revived!!
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ohohohoho!! Mask of White has revived!! Mask of
 
-            \.\. \C[17]Mask of White\C[0] is revived!! \.\.,
-
-            it is!! \.']}
+            White has revived!! Desuwa!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
@@ -1099,9 +1101,9 @@
           - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*74]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor004b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.Even under the shining sun, this body still
 
-            \.Well... even under the shining sun, this body still shines brightly in white...']}
+            glows white, you villains...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand
@@ -1120,39 +1122,37 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*75]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*76]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor004b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['If you''re not afraid, then come at me!!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['If you''re not afraid, then come at me!! \.^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '224', 'p': [!ruby/object:Color {'r': !!float '255.0', 'g': !!float '255.0', 'b': !!float '255.0', 'a': !!float '34.0'}, !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Ice4', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor004b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\> If you''re not afraid, then come at me!!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>If you''re not afraid, then come at me!! \.^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\. Damn it!!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\. Damn it!! \^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '241', 'p': [!ruby/object:RPG::BGM {'name': 'Battle2', 'volume': !!int '100', 'pitch': !!int '100'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>K-Kuso!!\. If it''s come to this, I''ll fight
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Damn it!! \.I''ll fight recklessly if it comes to
 
-            recklessly!!']}
+            this!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['暗転']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '223', 'p': [!ruby/object:Tone {'r': !!float '-255.0', 'g': !!float '-255.0', 'b': !!float '-255.0', 'a': !!float '0.0'}, !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Damn it!! \>If it''s come to this, I''ll fight
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Ku, damn it!! \>If it''s come to this, I''ll fight
 
-            recklessly!!\^']}
+            recklessly!! \^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Alright! I''m gonna do it...']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh! I''m gonna do it...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '241', 'p': [!ruby/object:RPG::BGM {'name': '', 'volume': !!int '100', 'pitch': !!int '100'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Oh! \>I''m gonna do it... \<What''s with this
-
-            production?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Oh! I''m gonna do it...\< What is this scene?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Bell3', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...Could it be that there won''t be any battles...?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Could it be that there won''t be any battles...?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Blow6', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>...Could it be that there won''t be any
@@ -1160,15 +1160,15 @@
             battles...?\. Ouch!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor002b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['That''s right. \., there''s no time for you
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['That''s right. \. You weaklings don''t deserve any
 
-            weaklings.']}
+            mercy.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Wind7', 'pitch': !!int '150', 'volume': !!int '50'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor002b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>That''s right. \>There''s no time for you
 
-            \>That''s right. \>There''s no time for you weaklings! \.^']}
+            weaklings\!\.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': '$02_actor002_action-003', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Slash8', 'pitch': !!int '100', 'volume': !!int '80'}]}
@@ -1181,10 +1181,10 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Evil', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Adadadadada!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['These guys never learn, damn it!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['You guys never learn, huh? Oi!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Jump1', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\> These guys never learn, damn it!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\> You guys never learn, huh? Oi!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Blow1', 'pitch': !!int '100', 'volume': !!int '90'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': '$03_actor003_action-002', 'pitch': !!int '100', 'volume': !!int '80'}]}
@@ -1278,7 +1278,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Regie: Hey, sis...!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '9', !!int '6', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Reg: S-Sorry for worrying you... \. Reje']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Regie: S-Sorry for worrying you... \.Regie']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
         'c': !!int '205'
@@ -1299,7 +1299,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Sound1', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '2', !!int '9', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hmm, sisterly love... It''s good, isn''t it? It''s
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hmm, sisterly love. It''s good, isn''t it? It''s
 
             good.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
@@ -1344,9 +1344,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*87]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*88]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Reg: Thank you... It''s all thanks to you! How can
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Regie: Thank you... It''s all thanks to you! How
 
-            I thank you...']}
+            can I possibly thank you...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
@@ -1364,7 +1364,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['No need for thanks. In the end, our mission was
 
-            to sail together.']}
+            aligned.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '4', !!int '9', !!bool 'false']}
       - !ruby/object:RPG::EventCommand
@@ -1383,7 +1383,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*90]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*91]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It seems like it''s because of our village, \.\.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\., well... it''s like it''s our village''s fault,
+
+            isn''t it?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['アサギ、頭にグシャグシャ']}
       - !ruby/object:RPG::EventCommand
@@ -1493,7 +1495,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*107]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*108]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['The merchant was protecting me firmly.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['The merchant-sama had been protecting me firmly.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand
@@ -1611,9 +1613,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*124]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*125]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor009a', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hin~ >.< They caught... not at 0, but they
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hin~ >.<! Instead of capturing them \., we ended
 
-            protected the children. Everyone disappeared~']}
+            up protecting the children. Everyone is gone now~']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '7', !!int '9', !!bool 'true']}
@@ -1657,7 +1659,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*132]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*133]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Reg: Thank you for your cooperation too! ...Hm?
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Regie: Thank you for your cooperation too! ...Hm?
 
             \.^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
@@ -1665,9 +1667,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '242', 'p': [!!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Reg: Thank you for your cooperation too, \>...
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Regie: Thank you for your cooperation too!
 
-            Hm? Excuse me, but... Have we met somewhere
+            \>...Hm? Excuse me, but... have we met somewhere
 
             before?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
@@ -1699,7 +1701,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor009a', !!int '0', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>Gikuuu!?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor009a', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Um, speaking of which, I have something urgent to
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh, speaking of which, I have something urgent to
 
             attend to, so I''ll excuse myself... \^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
@@ -1747,11 +1749,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*143]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '241', 'p': [!ruby/object:RPG::BGM {'name': 'Field2', 'volume': !!int '100', 'pitch': !!int '100'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Reg: I remembered! That''s the wanted slave
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Regie: I remembered! That''s the wanted slave
 
-            trader!! They''re a big villain who trains and
+            trader!! He''s a big villain who trains and sells
 
-            sells girls!']}
+            girls!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '7', !!int '5', !!bool 'false']}
@@ -1781,9 +1783,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*149]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*150]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor009a', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['I''ve been caught~!! \., I''m going to make a run
-
-            for it!!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['I''ve been caught~!! \. I''m in trouble!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['逃げ出すボロイス']}
       - !ruby/object:RPG::EventCommand
@@ -1850,7 +1850,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '3', !!int '1', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor002b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Wait! I won''t let you escape, \.!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Wait! I won''t let you escape!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['追っていくウィップ']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
@@ -2003,13 +2003,13 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*220]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*221]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\.... I can''t believe they were a villain!
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\....I can''t believe you were a villain! People
 
-            People are not always what they seem.']}
+            are not always what they seem.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '4', !!int '8', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '1', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\.... They''re just as they appear, right?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\.... Just as I expected.']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
         'c': !!int '205'
@@ -2157,7 +2157,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor001b_02', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \>No, I''m still in the middle of my training... \>Besides, I have to report the defeat of Aksuke to the village as well...!\.']}
+            \>No, I''m still in the middle of my training...! Besides, I have to report the defeat of Aksuke to the village as well...!\.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '112', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '196', !!int '0', !!int '360', !!int '1']}

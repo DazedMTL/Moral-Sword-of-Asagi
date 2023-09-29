@@ -908,16 +908,16 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['B-becoming empty...!!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '6', !!int '6', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['actor009a', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh, they were looking for girls and couldn''t
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh, I was looking for a girl, but she managed to
 
-            escape in time!']}
+            escape!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '225', 'p': [!!int '1', !!int '1', !!int '600', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '5', !!int '6']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '0', !!int '6']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '4', !!int '6', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['$actor003b_02', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\.... Are they still here?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\.\.... You''re still here?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Sound1', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '2', !!int '9', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}

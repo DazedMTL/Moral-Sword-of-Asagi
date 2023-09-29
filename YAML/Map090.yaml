@@ -288,7 +288,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['
 
-            Waitress: Yes, full of energy! Come back anytime to be teased as much as you like ♪']}
+            Waitress: Yes, you''re full of energy! Come back anytime to be teased as much as you like♪']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'No']}
@@ -1031,7 +1031,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]Ura alone cannot fight in this battle at level 0.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]We can''t fight this battle with just Ura alone.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '119', 'p': ['最初']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '412', 'p': []}
@@ -1048,9 +1048,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]Whip alone cannot fight in this battle at level
-
-            0.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]We can''t fight this battle with just Whip alone.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '119', 'p': ['最初']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '412', 'p': []}
@@ -1067,9 +1065,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]Blade alone cannot fight in this battle at level
-
-            0.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[27]We can''t fight this battle with just Blade alone.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '119', 'p': ['最初']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '412', 'p': []}
@@ -1347,7 +1343,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \> Waitress: This is a discount store. I''ll provide as much service as you like!']}
+            \> Waitress: This is a special sale place. I''ll provide as much service as you like!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '302', 'p': [!!int '0', !!int '1', !!int '1', !!int '0', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '605', 'p': [!!int '0', !!int '4', !!int '1', !!int '0']}
@@ -2247,9 +2243,9 @@
 
             those dicks? \>Defeat them greatly and be violated
 
-            greatly! And also, it''s good to occasionally
+            greatly! And sometimes, it''s good to change the
 
-            change the method of confinement.']}
+            method of confinement.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '355', 'p': ['viewer_custom(''captive'', 3)']}
@@ -3042,7 +3038,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \> Waitress: This is a discount store. I''ll provide as much service as you like!']}
+            \> Waitress: This is a special sale place. I''ll provide as much service as you like!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '302', 'p': [!!int '0', !!int '1', !!int '1', !!int '0', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '605', 'p': [!!int '0', !!int '4', !!int '1', !!int '0']}

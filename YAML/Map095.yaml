@@ -9150,11 +9150,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\> Defeat Event: \C[17] Asagi \C[0] Do you want
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            to watch ''\C[27] Complete Defeat! Asagi... Falling
-
-            into a flesh toilet \C[0]''?']}
+            Defeat Event: Asagi, do you want to watch Complete Defeat! Asagi... Falling into a Flesh Toilet?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Defeat scene is viewed.', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', 'Defeat scene is viewed.']}
@@ -9164,22 +9162,20 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[18]Asagi, who jumped into a different dimension
 
-            chasing after Aksuke, was met with an unbearable
+            chasing after Aksuke, but what awaited Asagi was
 
-            truth...']}
+            an unbearable truth about herself...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[18]Asagi, who jumped into a different dimension
 
-            chasing after Aksuke, was met with an unbearable
+            chasing after Aksuke, but what awaited Asagi was
 
-            truth... However, what awaited Asagi was their own
+            an unbearable truth about herself... Asagi, who
 
-            difficult-to-accept truth... Asagi, who continued
-
-            to pursue the true mastermind...']}
+            continued to pursue the true mastermind...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
@@ -9692,11 +9688,13 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '3', !!int '4']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Captive Event: \C[17]Whip & Blade\C[0]\.\^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: \C[17] Whip & Blade \C[0] \.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ["\n\\>Captive Event: \\C[17]Whip & Blade\\C[0] Would you like to watch \\C[27]Tainted Bond of Master and Servant\\C[0]? \n\n\\>Captive Event: \\C[17]Whip & Blade\\C[0] Would you like to watch \\C[27]Tainted Bond of Master and Servant\\C[0]?"]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Whip & Blade. Would you like to
+
+            watch The Tainted Bond of Master and Servant?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the training?', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '調教？を見る']}
@@ -9704,19 +9702,19 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.仲間を探して異空間を彷徨う\C[17]Asagi\C[0] \>However, the
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['Asagi, however, the scene that caught Asagi''s
 
-            scene that entered Asagi''s eyes...']}
+            eyes...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>Searching for companions, Asagi wanders through
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>Asagi\C[17], who wanders through different
 
-            a different dimension. \C[17]However, the scene
+            dimensions in search of companions. \>However, the
 
-            that entered Asagi''s eyes... \>\C[6]Let''s search
+            scene that caught Asagi''s eyes... \>\C[6]Let''s
 
-            for the two of them at the strip theater.']}
+            look for the two of them at the strip theater.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '119', 'p': ['Return']}
@@ -10096,13 +10094,13 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '3', !!int '4']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Captive Event: \C[17] Ura & Hyoro \C[0] \.\^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: \C[17] Ura & Hyoro \C[0] \.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Captive Event: Ura & Hyoro Do you want to watch
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Ura & Hyoro. Would you like to
 
-            the birth of the mismatched couple?']}
+            watch The Birth of an Odd Couple?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the training?', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '調教？を見る']}
@@ -10114,13 +10112,13 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>Searching for allies, they advance through a
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['Asagi, who was searching for her companions,
 
-            different dimension. \C[17]Asagi\C[0] And then,
+            advanced through the different dimension. And
 
-            the scene that appeared before Asagi''s eyes was...
+            then, the scene that caught Asagi''s eye was...
 
-            \>\C[6]Let''s search for Ura in the Corpse NTR.']}
+            Let''s search for Ura in the Corpse NTR.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '119', 'p': ['Return']}
@@ -10554,32 +10552,29 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \>Total Annihilation Event: \C[21]Strip Theater\C[0] Do you want to watch \C[27]Devastating Defeat! Exposed as a Flesh Toilet\C[0]?
-
-
-            \>Total Annihilation Event: \C[21]Strip Theater\C[0] Do you want to watch \C[27]Devastating Defeat! Exposed as a Flesh Toilet\C[0]?']}
+            \>Total Annihilation Event: \C[21]Strip Theater\C[0], do you want to watch \C[27]Total Defeat! Exposed as a Flesh Toilet\C[0] in the erotic space?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the Flesh Toilet', 'View Hint', 'Don''t View'], !!int '3']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the flesh toilet', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '肉便器を見る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.ストリップ劇場の怪しい\C[18]Manager\C[0]... \>It was
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.ストリップ劇場の怪しい\C[18]Manager\C[0]... It was Asagi
 
-            Asagi and the others who tried to expose and
+            and the others who tried to expose and defeat her
 
-            exterminate her true identity...']}
+            true identity...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>It was Asagi and the others who tried to expose
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['The suspicious manager of the strip theater... It
 
-            and exterminate the suspicious \C[18]manager\C[0]
+            was Asagi and the others who tried to expose and
 
-            of the strip theater... \>But they were defeated
+            defeat her true identity... But they were defeated
 
-            by the \C[6]manager of the strip theater.']}
+            by the manager of the strip theater.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '119', 'p': ['Return']}
@@ -10777,7 +10772,7 @@
 
             Committee''s Anal Inspector! Would you like to
 
-            watch Rectal Inspection?']}
+            watch The Inspection of Buttholes?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['To have an erotic dream', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '淫夢を見る']}
@@ -10785,20 +10780,12 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['When they realized it, Asagi was bound at the
-
-            school gate of Fukki Academy. That''s right, as
-
-            the Anal Inspector, I have to inspect the
-
-            delinquent dicks and make them cum...']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ["\nWhen Asagi noticed, she was tied up at the school gate of Fukki Academy. \nThat's right, as the Anal Inspector, I have to inspect the delinquent dicks and make them cum..."]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['
-
-            \>When they realized it, Asagi was bound at the school gate of Fukki Academy. That''s right, as the Anal Inspector, I have to inspect the delinquent dicks and make them cum... \>\C[6]→Asagi is confined in the final stage.']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ["\nWhen Asagi noticed, she was tied up at the school gate of Fukki Academy. \nThat's right, as the Anal Inspector, I have to inspect the delinquent dicks and make them cum... \nIn the final stage, Asagi will be confined."]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
@@ -10933,40 +10920,42 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '3', !!int '4']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: \C[17]Whip\C[0]\.\^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: \C[17] Whip \C[0] \.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Whip, do you want to see
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Whip, would you like to see the
 
-            Rosary of Reflection Board?']}
+            Reflection Board Rosario?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Dream of lewdness', 'View Hint', 'Don''t View'], !!int '3']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['To have an erotic dream', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '淫夢を見る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['When I noticed, Whip was tied to a confinement
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['When she realized it, Whip was bound to a
 
-            board at the church. Yes, their own mission is to
+            confinement board at the church. Yes, her own
 
-            be a filthy sex servant... They don''t wish for
+            mission was to be a filthy sex processing agent...
 
-            anyone to pick up their fallen self...']}
+            She didn''t hope for anyone to pick up her fallen
+
+            self...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['When I noticed, Whip was tied to a confinement
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['When she realized it, Whip was bound to a
 
-            board at the church. Yes, their own mission is to
+            confinement board at the church. Yes, her own
 
-            be a filthy sex servant... They don''t wish for
+            mission was to be a filthy sex processing agent...
 
-            anyone to pick up their fallen self... In the
+            She didn''t hope for anyone to pick up her fallen
 
-            final stage, Whip will be confined.']}
+            self... In the final stage, Whip will be confined.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
@@ -11104,27 +11093,27 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Ura, do you want to watch Room
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Ura, do you want to see the
 
-            of Corporeal NTR?']}
+            room of Corp NTR?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Look at the room', 'View Hint', 'Don''t View'], !!int '3']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['See the room', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '部屋を見る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[17]Ura, who was taken hostage by the weakling thugs,
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[17]Ura, who was taken hostage by Hyoro, was
 
-            was mercilessly toyed with...']}
+            mercilessly toyed with by the low-level thugs...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[17]Ura, who had Hyoro\C[0] taken hostage, was
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[17]Ura, who was taken hostage by Hyoro, was
 
-            mercilessly toyed with by the weakling thugs...
+            mercilessly toyed with by the low-level thugs...
 
-            \>\C[6]→ In the final stage, Ura is confined.']}
+            Ura will be confined in the final stage.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '119', 'p': ['Return']}
@@ -11257,34 +11246,32 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '204', 'p': [!!int '8', !!int '3', !!int '4']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Captive Event: \C[17] Blade \C[0] \.\^']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: \C[17] Blade \C[0] \.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Captive Event: Blade, do you want to see Where is
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Confinement Event: Blade, do you want to see
 
-            that shadow...?']}
+            Where is that shadow...?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['See a lewd dream', 'View Hint', 'Don''t View'], !!int '3']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Having an erotic dream', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '淫夢を見る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[17]Mask of White \C[0] and \C[18] Prince Black
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[17]Mask of White \C[0] and Prince Black \C[18], the
 
-            \C[0], the two destined ones continue to fight.
-
-            Yes, forever...']}
+            destined two continue to fight. Yes, forever...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[17]Mask of White and Prince Black, the two destined
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[17]Mask of White and Prince Black, the destined two
 
-            ones continue to fight. Yes, forever... In the
+            continue to fight. Yes, forever... In the final
 
-            final stage, Blade is captured.']}
+            stage, Blade will be confined.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
@@ -11419,37 +11406,37 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Total Annihilation Event: \C[18] Pleasure Heaven
 
-            (Axuke) \C[0]\.\^']}
+            (Axuke) \C[0] \.\^']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime1', 'pitch': !!int '150', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '118', 'p': ['Return']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Do you want to watch the closing of the Total
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Do you want to watch the Total Annihilation
 
-            Annihilation Event: Pleasure Heaven (Axuke)
+            Event: Pleasure Heaven (Axuke) - Closing Act:
 
-            featuring the Disciplinary Swordsman Asagi?']}
+            Disciplinary Swordsman Asagi?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the ending', 'View Hint', 'Don''t View'], !!int '3']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Watch the ending?', 'View Hint', 'Don''t View'], !!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '結末を見る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '15']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '1', 'View Hint']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[18]Asagi, who had already reached a state of divine
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\.\C[18]The power of Axuke was already in the realm of
 
-            power, returned to the disciplinary academy
+            ecstasy. Asagi, who returned to the disciplinary
 
-            seeking assistance...']}
+            academy seeking assistance, was...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Chime2', 'pitch': !!int '130', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[18]Asagi, who had already reached a state of divine
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\>\C[18]The power of Axuke had already reached the realm
 
-            power, returned to the disciplinary academy
+            of ecstasy. Asagi, who returned to the
 
-            seeking assistance... But she was defeated in
+            disciplinary academy seeking assistance, was...
 
-            Pleasure Heaven.']}
+            defeated by Pleasure Heaven.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '119', 'p': ['Return']}

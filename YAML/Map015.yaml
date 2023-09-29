@@ -21253,7 +21253,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['First, let''s deal with the people in the banquet
 
-            hall... They should understand how to play this
+            hall... You should understand how to play this
 
             game.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': ['']}
@@ -21310,7 +21310,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '102', 'p': [['Yes', 'No'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '402', 'p': [!!int '0', 'Yes']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['Nice! I''ll invite you, considering your skills!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['Nice! I''ll invite you, counting on your skills!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['Nevertheless, from here on, you can''t return.']}
@@ -21325,9 +21325,9 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '402', 'p': [!!int '1', 'No']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['In that case, save first. If you need healing,
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['Then, go ahead and save first. If you need
 
-            ask the merchant in the cell above.']}
+            healing, ask the merchant in the cell above.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '404', 'p': []}

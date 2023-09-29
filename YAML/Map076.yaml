@@ -885,7 +885,7 @@
           - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*13]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Monster1', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['You... Hanzo...! You... discipline...!']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['You... Hanzo Hattori...! You... the discipline...!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '225', 'p': [!!int '1', !!int '3', !!int '600', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '223', 'p': [!ruby/object:Tone {'r': !!float '136.0', 'g': !!float '136.0', 'b': !!float '136.0', 'a': !!float '0.0'}, !!int '300', !!bool 'false']}
       - !ruby/object:RPG::EventCommand
@@ -902,19 +902,23 @@
           - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*14]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Monster1', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>You... \C[2]Hagure... \C[0]You... \C[21]Fūki...
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>You... Hanzo Hattori...! You... the
 
-            You won''t erase it...! You won''t forget it...!']}
+            discipline...! \C[0]You... Hanzo Hattori...!
+
+            You... the discipline...! I won''t let you erase
+
+            it...! I won''t forget it...!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '225', 'p': [!!int '1', !!int '3', !!int '600', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Monster1', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>You... Hanzo... \C[2]You... Hayabusa...
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>You... Hanzo Hattori...! You... the
 
-            \C[0]You... Fūki... \C[21]You won''t erase it...!
+            discipline...! \>I won''t let you erase it...! I
 
-            You won''t forget it...! \C[0]The end... you won''t
+            won''t forget it...! \.The end... I won''t let it
 
-            reach it...!']}
+            happen...!']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '225', 'p': [!!int '1', !!int '3', !!int '600', !!bool 'false']}
@@ -948,13 +952,9 @@
           - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*17]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['Monster1', !!int '0', !!int '0', !!int '0']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\>You... Hanzo... \C[2]You... Hayabusa...
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['
 
-            \C[0]You... Fūki... \C[21]You won''t erase it...!
-
-            You won''t forget it...! \C[0]The end... you won''t
-
-            reach it...! My... ambition...']}
+            \>You... Hanzo Hattori...! You... the discipline...! \C[21]I won''t let you erase it...! I won''t forget it...! \>The end... I won''t let it happen...! My... ambition...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': ['']}
