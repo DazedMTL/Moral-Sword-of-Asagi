@@ -8,6 +8,7 @@
 !*.7z
 !*.csv
 !*.yaml
+!*.rb
 !.gitignore
 !README.md
 package.json
