@@ -9,6 +9,7 @@
 !*.csv
 !*.yaml
 !*.rb
+!*.rvdata2
 !.gitignore
 !README.md
 package.json
