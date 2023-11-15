@@ -1,3 +1,6 @@
+# WARNING
+Only compatible with the TNT version. Likely won't work with the original version due to missing images.
+
 # Apply Patch
 1. Click Code
 2. Click Download ZIP
